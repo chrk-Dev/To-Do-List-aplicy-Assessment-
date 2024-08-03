@@ -1,0 +1,19 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+	"organizeImports": { "enabled": true },
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": false,
+			"a11y": { "noBlankTarget": "error" },
+			"correctness": {
+				"noChildrenProp": "error",
+				"useExhaustiveDependencies": "warn",
+				"useHookAtTopLevel": "error",
+				"useJsxKeyInIterable": "error"
+			},
+			"security": { "noDangerouslySetInnerHtmlWithChildren": "error" },
+			"suspicious": { "noCommentText": "error", "noDuplicateJsxProps": "error" }
+		}
+	}
+}
